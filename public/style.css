@@ -1,0 +1,176 @@
+body {
+  background-color: #162f51;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  display: flex;
+  height: 20vh;
+  padding: 2vh;
+}
+
+.logo {
+  text-align: left;
+  width: 48vw;
+}
+
+nav {
+  width: 48vw;
+  padding: 0 2vh;
+}
+
+#logo {
+  height: 17vh;
+  padding: 2vh;
+  width: auto;
+}
+
+ul {
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+li {
+  display: inline-block;
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: DodgerBlue;
+  font-size: 20px;
+}
+
+a:visited {
+  color: DodgerBlue;
+}
+
+h1 {
+  color: #ecc700;
+  padding: 1vh;
+  font-size: 4vh;
+}
+
+h2 {
+  color: black;
+  font-size: 30px;
+  padding: 5px;
+}
+
+main {
+  height: 90vh;
+  width: 100vw;
+  margin: auto;
+  background-color: white;
+  text-align: center;
+}
+
+main .headline {
+  height: 30vh;
+  padding: 5px;
+}
+
+.headline h1,
+.headline h2 {
+  padding: 15px;
+}
+
+main .row {
+  display: flex;
+  justify-content: space-around;
+}
+
+main .col {
+  height: 55vh;
+  width: 45vw;
+}
+
+main img {
+  height: 50vh;
+  width: auto;
+}
+
+main p {
+  text-align: right;
+  font-family: 'Lobster', cursive;
+  font-size: 48px;
+}
+
+#about {
+  height: 75vh;
+  width: 95vw;
+  padding: 5px;
+  margin: 0 auto;
+}
+
+#about .row {
+  display: flex;
+  justify-content: space-around;
+}
+
+#projects {
+  background-color: white;
+  height: 75vh;
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#projects h3 {
+  font-size: 32px;
+}
+
+#projects .row {
+  display: flex;
+  justify-content: space-around;
+}
+
+#projects .col {
+  width: 30vw;
+  border: 1px solid black;
+}
+
+#projects img {
+  padding: 20px;
+  width: 70%;
+  height: auto;
+}
+
+#projects p {
+  font-size: 24px;
+  padding: 20px;
+}
+
+footer {
+  height: 45vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+footer h3 {
+  color: #ecc700;
+  font-size: 32px;
+  padding: 10px;
+  height: 48px;
+}
+
+footer p {
+  color: white;
+  font-size: 24px;
+  padding: 5px;
+}
+
+footer .fa {
+  padding: 20px 30px;
+  color: white;
+}
+
+/*Media Queries*/
